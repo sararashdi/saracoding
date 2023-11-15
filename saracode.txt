@@ -1,0 +1,15 @@
+# Configuration Settings
+server_port = 8080
+logging_enabled = True
+
+# Function Definition
+def greet(name):
+    print(f"Hello, {name}!")
+
+# Main Script
+if __name__ == "__main__":
+    if logging_enabled:
+        print(f"Starting the script on port {server_port}...")
+
+    greet("Alice")
+
